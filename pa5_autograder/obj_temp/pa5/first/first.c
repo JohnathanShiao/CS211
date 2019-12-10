@@ -3,8 +3,9 @@
 #include <math.h>
 #include <string.h>
 
-int numin;
-int numout;
+int numin=0;
+int numout=0;
+int reverse = 0;
 
 typedef struct node{
     char* name;
@@ -170,7 +171,11 @@ void readFile(FILE* fp,node* vars, gate* circuit)
                 if(strcmp(temp,"INPUTVAR")==0)
                     numin = num;
                 else
+                {
                     numout = num;
+                    if(numin == 0)
+                        reverse = 1;
+                }
                 for(int i = 0;i<num;i++)
                 {
                     if(fscanf(fp,"%s",temp)>0)
@@ -454,11 +459,24 @@ gate* evaluate(node* vars,gate* circuit,int i)
 {
     int g = graycode(i);
     int v;
-    for(int i = 0;i<numin;i++)
+    if(reverse)
     {
-        v = (g>>(numin-i-1))%2;
-        printf("%d ",v);
-        load(vars,i,v);
+        int counter = 0;
+        for(int i = numout;i<numin+numout;i++)
+        {
+            v = (g>>(numin-counter-1))%2;
+            printf("%d ",v);
+            load(vars,i,v);
+            counter++;
+        }
+    }
+    else{
+        for(int i = 0;i<numin;i++)
+        {
+            v = (g>>(numin-i-1))%2;
+            printf("%d ",v);
+            load(vars,i,v);
+        }
     }
     gate* ptr = circuit;
     gate* prev = NULL;
@@ -493,12 +511,23 @@ gate* evaluate(node* vars,gate* circuit,int i)
         }
     }
     node* out = vars;
-    for(int i = 0;i<numin;i++)
-        out=out->next;
-    for(int i = 0;i<numout;i++)
+    if(reverse)
     {
-        printf("%d ", out->val);
-        out=out->next;
+        for(int i = 0;i<numout;i++)
+        {
+            printf("%d ", out->val);
+            out=out->next;
+        }
+    }
+    else
+    {
+        for(int i = 0;i<numin;i++)
+            out=out->next;
+        for(int i = 0;i<numout;i++)
+        {
+            printf("%d ", out->val);
+            out=out->next;
+        }
     }
     printf("\n");
     return circuit;
