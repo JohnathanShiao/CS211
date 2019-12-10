@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ExperimentError	../autograder/auto_grader.py	/^class ExperimentError(Exception):$/;"	kind:class	line:14
+ExperimentError	../pa2_autograder/pa2_autograder.py	/^class ExperimentError(Exception):$/;"	kind:class	line:19
+ExperimentError	../pa4_autograder/auto_grader.py	/^class ExperimentError(Exception):$/;"	kind:class	line:15
+ExperimentError	../pa5_autograder/auto_grader.py	/^class ExperimentError(Exception):$/;"	kind:class	line:16
+Total_score	../autograder/auto_grader.py	/^        Total_score = Total_score + value$/;"	kind:variable	line:319
+Total_score	../autograder/auto_grader.py	/^    Total_score = 0.0$/;"	kind:variable	line:316
+Total_score	../pa5_autograder/auto_grader.py	/^        Total_score = Total_score + value$/;"	kind:variable	line:353
+Total_score	../pa5_autograder/auto_grader.py	/^    Total_score = 0.0$/;"	kind:variable	line:350
+__init__	../autograder/auto_grader.py	/^    def __init__(self, command, output):$/;"	kind:member	line:15
+__init__	../pa2_autograder/pa2_autograder.py	/^    def __init__(self, command, output):$/;"	kind:member	line:20
+__init__	../pa4_autograder/auto_grader.py	/^    def __init__(self, command, output):$/;"	kind:member	line:16
+__init__	../pa5_autograder/auto_grader.py	/^    def __init__(self, command, output):$/;"	kind:member	line:17
+__str__	../autograder/auto_grader.py	/^    def __str__(self):$/;"	kind:member	line:22
+__str__	../pa2_autograder/pa2_autograder.py	/^    def __str__(self):$/;"	kind:member	line:27
+__str__	../pa4_autograder/auto_grader.py	/^    def __str__(self):$/;"	kind:member	line:23
+__str__	../pa5_autograder/auto_grader.py	/^    def __str__(self):$/;"	kind:member	line:24
+auto_grader.py	../autograder/auto_grader.py	1;"	kind:file	line:1
+auto_grader.py	../pa4_autograder/auto_grader.py	1;"	kind:file	line:1
+auto_grader.py	../pa5_autograder/auto_grader.py	1;"	kind:file	line:1
+basepath	../autograder/auto_grader.py	/^    basepath = "pa1"$/;"	kind:variable	line:279
+basepath	../pa2_autograder/pa2_autograder.py	/^    basepath = "pa2"$/;"	kind:variable	line:299
+basepath	../pa4_autograder/auto_grader.py	/^    basepath = "pa4"$/;"	kind:variable	line:291
+basepath	../pa5_autograder/auto_grader.py	/^    basepath = "pa5"$/;"	kind:variable	line:296
+compare_string	../autograder/auto_grader.py	/^def compare_string(ref, test):$/;"	kind:function	line:100
+compare_string	../pa2_autograder/pa2_autograder.py	/^def compare_string(ref, test):$/;"	kind:function	line:109
+compare_string	../pa4_autograder/auto_grader.py	/^def compare_string(ref, test):$/;"	kind:function	line:95
+compare_string	../pa5_autograder/auto_grader.py	/^def compare_string(ref, test):$/;"	kind:function	line:99
+compare_string_file	../autograder/auto_grader.py	/^def compare_string_file(ref_file, test_string, show_difference=False):$/;"	kind:function	line:72
+compare_string_file	../pa2_autograder/pa2_autograder.py	/^def compare_string_file(ref_file, test_string, show_difference=False):$/;"	kind:function	line:76
+compare_string_file	../pa4_autograder/auto_grader.py	/^def compare_string_file(ref_file, test_string, show_difference=False):$/;"	kind:function	line:71
+compare_string_file	../pa5_autograder/auto_grader.py	/^def compare_string_file(ref_file, test_string, show_difference=False):$/;"	kind:function	line:75
+dict_results	../pa2_autograder/pa2_autograder.py	/^dict_results= {"testA.txt":"resultA.txt", "testB.txt":"resultB.txt", "testC.txt":"resultC.txt", "testD.txt":"resultD.txt", "testE.txt":"resultE.txt", "testF.txt":"resultF.txt", "testG.txt":"resultG.txt", "testH.txt":"resultH.txt", "testI.txt":"resultI.txt"}$/;"	kind:variable	line:14
+dict_train	../pa2_autograder/pa2_autograder.py	/^dict_train= {"testA.txt":"trainA.txt", "testB.txt":"trainB.txt", "testC.txt":"trainC.txt", "testD.txt":"trainD.txt", "testE.txt":"trainE.txt", "testF.txt":"trainF.txt", "testG.txt":"trainG.txt", "testH.txt":"trainH.txt", "testI.txt":"trainI.txt"}$/;"	kind:variable	line:7
+file_grade	../autograder/auto_grader.py	/^def file_grade(dirname):$/;"	kind:function	line:121
+file_grade	../pa4_autograder/auto_grader.py	/^def file_grade(dirname):$/;"	kind:function	line:117
+file_grade	../pa5_autograder/auto_grader.py	/^def file_grade(dirname):$/;"	kind:function	line:120
+final_release_scores	../pa2_autograder/pa2_autograder.py	/^final_release_scores = {'first': 0.0, 'second': 0.0, 'third':0.0}$/;"	kind:variable	line:189
+first_grade	../pa2_autograder/pa2_autograder.py	/^def first_grade(dirname):$/;"	kind:function	line:218
+first_weight	../pa2_autograder/pa2_autograder.py	/^first_weight = {"testA.txt":2.5, "testB.txt":5.0, "testC.txt":2.5, "testD.txt":2.5, "testE.txt":2.5, "testF.txt":2.5, "testG.txt":2.5, "testH.txt":2.5, "testI.txt":2.5}$/;"	kind:variable	line:9
+formats	../autograder/auto_grader.py	/^formats = {'first':'file', 'second':'file', 'third':'file', 'fourth':'file', 'fifth':'file', 'sixth':'line', 'seventh':'line', 'eighth':'file', 'ninth':'file', 'tenth':'file'}# if a program has single liner input and output, we put all test cases in single file. Otherwise, we have a file for test and associated file with results$/;"	kind:variable	line:7
+formats	../pa4_autograder/auto_grader.py	/^formats = {'first':'file'}# if a program has single liner input and output, we put all test cases in single file. Otherwise, we have a file for test and associated file with results$/;"	kind:variable	line:8
+formats	../pa5_autograder/auto_grader.py	/^formats = {'first':'file', 'second':'file'}# if a program has single liner input and output, we put all test cases in single file. Otherwise, we have a file for test and associated file with results$/;"	kind:variable	line:8
+glob	../autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+glob	../pa2_autograder/pa2_autograder.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+glob	../pa4_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+glob	../pa5_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+global_grade	../autograder/auto_grader.py	/^def global_grade(dirname):$/;"	kind:function	line:263
+global_grade	../pa2_autograder/pa2_autograder.py	/^def global_grade(dirname):$/;"	kind:function	line:269
+global_grade	../pa4_autograder/auto_grader.py	/^def global_grade(dirname):$/;"	kind:function	line:273
+global_grade	../pa5_autograder/auto_grader.py	/^def global_grade(dirname):$/;"	kind:function	line:280
+list_tests	../pa2_autograder/pa2_autograder.py	/^list_tests= ["testA.txt", "testB.txt", "testC.txt", "testD.txt", "testE.txt", "testF.txt", "testG.txt", "testH.txt", "testI.txt"];$/;"	kind:variable	line:12
+make_executable	../autograder/auto_grader.py	/^def make_executable(dirname):$/;"	kind:function	line:111
+make_executable	../pa2_autograder/pa2_autograder.py	/^def make_executable(dirname):$/;"	kind:function	line:120
+make_executable	../pa4_autograder/auto_grader.py	/^def make_executable(dirname):$/;"	kind:function	line:106
+make_executable	../pa5_autograder/auto_grader.py	/^def make_executable(dirname):$/;"	kind:function	line:110
+os	../autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+os	../pa2_autograder/pa2_autograder.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+os	../pa4_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+os	../pa5_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+pa2_autograder.py	../pa2_autograder/pa2_autograder.py	1;"	kind:file	line:1
+popen2	../autograder/auto_grader.py	/^import popen2$/;"	kind:namespace	line:4
+popen2	../pa2_autograder/pa2_autograder.py	/^import popen2$/;"	kind:namespace	line:4
+popen2	../pa4_autograder/auto_grader.py	/^import popen2$/;"	kind:namespace	line:4
+popen2	../pa5_autograder/auto_grader.py	/^import popen2$/;"	kind:namespace	line:4
+prevdir	../autograder/auto_grader.py	/^        prevdir = os.getcwd()$/;"	kind:variable	line:297
+prevdir	../pa2_autograder/pa2_autograder.py	/^	prevdir = os.getcwd()$/;"	kind:variable	line:318
+prevdir	../pa4_autograder/auto_grader.py	/^	    prevdir = os.getcwd()$/;"	kind:variable	line:304
+prevdir	../pa4_autograder/auto_grader.py	/^        prevdir = os.getcwd()$/;"	kind:variable	line:319
+prevdir	../pa5_autograder/auto_grader.py	/^	    prevdir = os.getcwd()$/;"	kind:variable	line:309
+prevdir	../pa5_autograder/auto_grader.py	/^        prevdir = os.getcwd()$/;"	kind:variable	line:329
+run_command	../autograder/auto_grader.py	/^def run_command(command_string, input_string="", max_lines=0, verbose=False, echo=False, throw_exception=True, return_valgrind_output=False, user_program=False):$/;"	kind:function	line:25
+run_command	../pa2_autograder/pa2_autograder.py	/^def run_command(command_string, input_string="", max_lines=0, timeout=120, verbose=False, echo=False, throw_exception=True, return_valgrind_output=False, user_program=False):$/;"	kind:function	line:30
+run_command	../pa4_autograder/auto_grader.py	/^def run_command(command_string, input_string="", max_lines=0, timeout=20, verbose=False, echo=False, throw_exception=True, return_valgrind_output=False, user_program=False):$/;"	kind:function	line:26
+run_command	../pa5_autograder/auto_grader.py	/^def run_command(command_string, input_string="", max_lines=0, timeout=20, verbose=False, echo=True, throw_exception=True, return_valgrind_output=False, user_program=False):$/;"	kind:function	line:27
+runtime	../pa4_autograder/auto_grader.py	/^runtime = {'first':2050}$/;"	kind:variable	line:11
+runtime	../pa5_autograder/auto_grader.py	/^runtime = {'first':200, 'second':200}$/;"	kind:variable	line:12
+scores	../autograder/auto_grader.py	/^scores = {'first':0, 'second':0, 'third':0, 'fourth':0, 'fifth':0, 'sixth':0, 'seventh':0, 'eighth':0, 'ninth':0}$/;"	kind:variable	line:9
+scores	../pa5_autograder/auto_grader.py	/^scores = {'first':0, 'second':0}$/;"	kind:variable	line:10
+second_grade	../pa2_autograder/pa2_autograder.py	/^def second_grade(dirname):$/;"	kind:function	line:191
+signal	../autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+signal	../pa2_autograder/pa2_autograder.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+signal	../pa4_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+signal	../pa5_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+single_grade	../autograder/auto_grader.py	/^def single_grade(dirname):$/;"	kind:function	line:189
+single_grade	../pa5_autograder/auto_grader.py	/^def single_grade(dirname):$/;"	kind:function	line:207
+subdirectories	../autograder/auto_grader.py	/^subdirectories = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth']$/;"	kind:variable	line:6
+subdirectories	../pa2_autograder/pa2_autograder.py	/^subdirectories = ['first', 'second', 'third']$/;"	kind:variable	line:188
+subdirectories	../pa4_autograder/auto_grader.py	/^subdirectories = ['first']$/;"	kind:variable	line:7
+subdirectories	../pa5_autograder/auto_grader.py	/^subdirectories = ['first', 'second']$/;"	kind:variable	line:7
+subprocess	../autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+subprocess	../pa2_autograder/pa2_autograder.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+subprocess	../pa4_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+subprocess	../pa5_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+sys	../autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+sys	../pa2_autograder/pa2_autograder.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+sys	../pa4_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+sys	../pa5_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+tarmode	../autograder/auto_grader.py	/^            tarmode=True$/;"	kind:variable	line:285
+tarmode	../autograder/auto_grader.py	/^    tarmode = False #by default check the directory$/;"	kind:variable	line:280
+tarmode	../pa2_autograder/pa2_autograder.py	/^            tarmode=True$/;"	kind:variable	line:306
+tarmode	../pa2_autograder/pa2_autograder.py	/^    tarmode = False #by default check the directory$/;"	kind:variable	line:300
+tarmode	../pa4_autograder/auto_grader.py	/^            tarmode=True$/;"	kind:variable	line:297
+tarmode	../pa4_autograder/auto_grader.py	/^    tarmode = False #by default check the directory$/;"	kind:variable	line:292
+tarmode	../pa5_autograder/auto_grader.py	/^            tarmode=True$/;"	kind:variable	line:302
+tarmode	../pa5_autograder/auto_grader.py	/^    tarmode = False #by default check the directory$/;"	kind:variable	line:297
+test_cases_directory	../autograder/auto_grader.py	/^    test_cases_directory = os.getcwd() + "\/testcases\/"$/;"	kind:variable	line:282
+test_cases_directory	../autograder/auto_grader.py	/^test_cases_directory = ""$/;"	kind:variable	line:11
+test_cases_directory	../pa2_autograder/pa2_autograder.py	/^    test_cases_directory = os.getcwd() + "\/testcases\/"$/;"	kind:variable	line:303
+test_cases_directory	../pa2_autograder/pa2_autograder.py	/^test_cases_directory = ""$/;"	kind:variable	line:16
+test_cases_directory	../pa4_autograder/auto_grader.py	/^    test_cases_directory = os.getcwd() + "\/testcases\/"$/;"	kind:variable	line:294
+test_cases_directory	../pa4_autograder/auto_grader.py	/^test_cases_directory = ""$/;"	kind:variable	line:12
+test_cases_directory	../pa5_autograder/auto_grader.py	/^    test_cases_directory = os.getcwd() + "\/testcases\/"$/;"	kind:variable	line:299
+test_cases_directory	../pa5_autograder/auto_grader.py	/^test_cases_directory = ""$/;"	kind:variable	line:13
+third_grade	../pa2_autograder/pa2_autograder.py	/^def third_grade(dirname):$/;"	kind:function	line:130
+time	../autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+time	../pa2_autograder/pa2_autograder.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+time	../pa2_autograder/pa2_autograder.py	/^import time$/;"	kind:namespace	line:5
+time	../pa4_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+time	../pa4_autograder/auto_grader.py	/^import time$/;"	kind:namespace	line:5
+time	../pa5_autograder/auto_grader.py	/^import os, sys, glob, time, subprocess, signal$/;"	kind:namespace	line:3
+time	../pa5_autograder/auto_grader.py	/^import time$/;"	kind:namespace	line:5
+total	../pa4_autograder/auto_grader.py	/^total = {'first':100}$/;"	kind:variable	line:10
+total	../pa5_autograder/auto_grader.py	/^total = {'first':50, 'second':50}$/;"	kind:variable	line:11
+total_score	../pa2_autograder/pa2_autograder.py	/^    total_score = 0;$/;"	kind:variable	line:301
+total_score	../pa2_autograder/pa2_autograder.py	/^    total_score = final_release_scores['first'] + final_release_scores['third']$/;"	kind:variable	line:335
+weight	../autograder/auto_grader.py	/^weight = {'first':1.25, 'second':0.625, 'third':1.25, 'fourth':1.0, 'fifth':1.0, 'sixth':1.25, 'seventh':0.25, 'eighth':1.5, 'ninth':2.5}$/;"	kind:variable	line:8
+weight	../pa4_autograder/auto_grader.py	/^weight = {'first':1}$/;"	kind:variable	line:9
+weight	../pa5_autograder/auto_grader.py	/^weight = {'first':1 , 'second':1}$/;"	kind:variable	line:9
