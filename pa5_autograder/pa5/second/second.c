@@ -337,6 +337,16 @@ int valid(node* vars, gate* circuit)
             return 0;
         ins = ins->next;
     }
+    ins = circuit->selectors;
+    while(ins!=NULL)
+    {
+        temp = get(ins->name,vars);
+        if(temp == NULL)
+            return 0;
+        else if(temp->val == -1)
+            return 0;
+        ins = ins->next;
+    }
     return 1;
 }
 
